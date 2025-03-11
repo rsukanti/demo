@@ -9,7 +9,7 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: "Fraunces", serif;
     font-weight: 600;
-    color: #0176D3;
+    color: #31BBD0;
 }
 h1 {
 	font-size: 45px;
@@ -25,7 +25,7 @@ section.light-bg{
     background: #F4F4F4;
 }
 section.bg-purple{
-    background: #032D60;
+    background: #0E393B;
 }
 section.bg-purple h2,
 section.bg-purple p{
@@ -48,8 +48,8 @@ section.bg-purple .line-btn {
 }
 .bg-btn{
     color: #ffffff;
-    background: #2E844A;
-    border: solid 1px #2E844A;
+    background: #EA5747;
+    border: solid 1px #EA5747;
 }
 .bg-btn:hover{
     color: #ffffff;
@@ -88,7 +88,7 @@ section.bg-purple .line-btn {
 }
 .navbar-expand-lg .navbar-nav .nav-link.active,
 .navbar-expand-lg .navbar-nav .nav-link:hover  {
-    color: #0176D3;
+    color: #31BBD0;
 }
 .dropdown-toggle::after {
 	content: "\e64b";
@@ -108,7 +108,7 @@ section.bg-purple .line-btn {
     position: relative;
 }
 .banner::before{
-    background: rgba(3, 45, 96, .6);
+    background: rgba(14, 57, 59, 0.7);
     position: absolute;
     left: 0;
     top: 0;
@@ -176,7 +176,7 @@ section.bg-purple .line-btn {
     padding: 0;
 }
 .services-inn-btm a{
-    color: #0176D3;
+    color: #E72479;
     font-size: 18px;
     font-weight: 500;
     text-decoration: underline;
@@ -287,9 +287,10 @@ section.bg-purple .line-btn {
 }
 .blog-tabs .card-body{
     padding: 0;
+    border: solid 1px #c6c6c6;
 }
 .blog-tabs .card-cnt{
-    padding: 20px 0;
+    padding: 20px;
 }
 .blog-tabs .card-cnt h5 {
 	font-size: 26px;
@@ -331,11 +332,12 @@ section.bg-purple .line-btn {
 }
 
 footer{
-    background: #F4F4F4;
+    background: #C4E8ED;
     padding-top: 80px;
 }
 .footer-head-left h5{
     font-size: 24px;
+    color: #E72479;
 }
 .footer-nav{
     margin: 30px 0 0;
@@ -344,17 +346,17 @@ footer{
     width: 20%;
 }
 .footer-nav h6{
+    color: #E72479;
     font-size: 20px;
     font-weight: 600;
     margin: 25px 0;
 }
 .footer-nav ul{
-    list-style: none;
-    margin: 0;
+    list-style: disc;
+    margin: 0 0 0 20px;
     padding: 0;
 }
 .footer-nav ul li{
-    list-style: none;
     margin: 0;
     padding: 0;
     margin: 0 0 6px;
@@ -412,7 +414,7 @@ footer ul {
 .form-subscribe button.btn {
 	border-radius: 0;
 	border: solid 1px #000000;
-    background: #F4F4F4;
+    background: #C4E8ED;
 	width: 235px;
 	display: inline-block;
 	font-size: 16px;
