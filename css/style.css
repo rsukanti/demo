@@ -32,11 +32,11 @@ section.bg-purple p{
     color: #ffffff;
 }
 
-.logobar-buttons a{
-    text-decoration: none;
-    font-size: 16px;
-    margin: 0 4px;
-    padding: 10px 20px;
+.logobar-buttons a {
+	text-decoration: none;
+	font-size: 18px;
+	margin: 0 4px;
+	padding: 12px 35px;
 }
 .line-btn{
     color: #000000;
@@ -407,6 +407,20 @@ footer ul {
 	transition: all 0.3s ease 0s;
     margin: 0;
     padding: 0;
+}
+.form-subscribe .form-control,
+.form-subscribe button.btn {
+	border-radius: 0;
+	border: solid 1px #000000;
+    background: #F4F4F4;
+	width: 235px;
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 15px;
+}
+.form-subscribe button.btn{
+    width: auto;
+	padding: 8px 25px;
 }
 
 
